@@ -87,6 +87,19 @@ The following visualizations are supported:
 Touchmap, Passmap, Defensive Actions, Take-ons, Half-space and zone14 passes, Receptions, Carries, Shots.
 Select the player, season, and visualization types, then click "Create Vizzes" to generate the images.
 
+## How to use Zude05
+1. Run the Zude05 Notebook file from JupterNotebook
+2. Click on the Load csv button.
+3. Select the Team
+4. Select the Player
+5. Insert the understat ID of the player if you want to visualize shots with xG.
+6. Pick the Colors
+7. Setup Figure and Pitch Configuration
+8. Select your first colormap for the receptions and the second one for xG and xT (carries).
+9. Choose your visualizations from the checkboxes.
+10. Click on Create Vizzes.
+11. You will find the vizzes in the Output folder. Make this directory where the Notebook is located, if it's not there already. 
+
 ## How to scrape data from whoscored
 https://soccerdata.readthedocs.io/en/latest/
 
